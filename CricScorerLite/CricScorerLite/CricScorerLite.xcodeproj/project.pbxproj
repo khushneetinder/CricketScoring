@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8067C5061AF0DCED007DE073 /* ScoringAreaViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8067C5051AF0DCED007DE073 /* ScoringAreaViewController.mm */; };
+		808799901AEFB6D800F636C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087998F1AEFB6D800F636C2 /* Foundation.framework */; };
+		808799921AEFB6D800F636C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808799911AEFB6D800F636C2 /* CoreGraphics.framework */; };
+		808799941AEFB6D800F636C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808799931AEFB6D800F636C2 /* UIKit.framework */; };
+		8087999A1AEFB6D800F636C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 808799981AEFB6D800F636C2 /* InfoPlist.strings */; };
+		8087999C1AEFB6D800F636C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8087999B1AEFB6D800F636C2 /* main.m */; };
+		808799A01AEFB6D800F636C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8087999F1AEFB6D800F636C2 /* AppDelegate.m */; };
+		808799A31AEFB6D800F636C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808799A11AEFB6D800F636C2 /* Main.storyboard */; };
+		808799A81AEFB6D800F636C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808799A71AEFB6D800F636C2 /* Images.xcassets */; };
+		80F4D2451AEFB8F100B395FE /* Black-square-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F4D2441AEFB8F100B395FE /* Black-square-button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80BA342F1D60BCED00A3E816 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8067C5041AF0DCED007DE073 /* ScoringAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringAreaViewController.h; sourceTree = "<group>"; };
+		8067C5051AF0DCED007DE073 /* ScoringAreaViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ScoringAreaViewController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8087998C1AEFB6D800F636C2 /* CricScorerLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricScorerLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8087998F1AEFB6D800F636C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		808799911AEFB6D800F636C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		808799931AEFB6D800F636C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		808799971AEFB6D800F636C2 /* CricScorerLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CricScorerLite-Info.plist"; sourceTree = "<group>"; };
+		808799991AEFB6D800F636C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8087999B1AEFB6D800F636C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8087999D1AEFB6D800F636C2 /* CricScorerLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CricScorerLite-Prefix.pch"; sourceTree = "<group>"; };
+		8087999E1AEFB6D800F636C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8087999F1AEFB6D800F636C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		808799A21AEFB6D800F636C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		808799A71AEFB6D800F636C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		808799B61AEFB6D800F636C2 /* CricScorerLiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CricScorerLiteTests-Info.plist"; sourceTree = "<group>"; };
+		808799B81AEFB6D800F636C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		808799BA1AEFB6D800F636C2 /* CricScorerLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricScorerLiteTests.m; sourceTree = "<group>"; };
+		80F4D2441AEFB8F100B395FE /* Black-square-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Black-square-button.png"; path = "Res/Images/Black-square-button.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808799891AEFB6D800F636C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808799921AEFB6D800F636C2 /* CoreGraphics.framework in Frameworks */,
+				808799941AEFB6D800F636C2 /* UIKit.framework in Frameworks */,
+				808799901AEFB6D800F636C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808799831AEFB6D800F636C2 = {
+			isa = PBXGroup;
+			children = (
+				808799951AEFB6D800F636C2 /* CricScorerLite */,
+				808799B41AEFB6D800F636C2 /* CricScorerLiteTests */,
+				8087998E1AEFB6D800F636C2 /* Frameworks */,
+				8087998D1AEFB6D800F636C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8087998D1AEFB6D800F636C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8087998C1AEFB6D800F636C2 /* CricScorerLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8087998E1AEFB6D800F636C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8087998F1AEFB6D800F636C2 /* Foundation.framework */,
+				808799911AEFB6D800F636C2 /* CoreGraphics.framework */,
+				808799931AEFB6D800F636C2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		808799951AEFB6D800F636C2 /* CricScorerLite */ = {
+			isa = PBXGroup;
+			children = (
+				8087999E1AEFB6D800F636C2 /* AppDelegate.h */,
+				8087999F1AEFB6D800F636C2 /* AppDelegate.m */,
+				8067C5041AF0DCED007DE073 /* ScoringAreaViewController.h */,
+				8067C5051AF0DCED007DE073 /* ScoringAreaViewController.mm */,
+				808799A11AEFB6D800F636C2 /* Main.storyboard */,
+				808799A71AEFB6D800F636C2 /* Images.xcassets */,
+				80F4D2441AEFB8F100B395FE /* Black-square-button.png */,
+				808799961AEFB6D800F636C2 /* Supporting Files */,
+			);
+			path = CricScorerLite;
+			sourceTree = "<group>";
+		};
+		808799961AEFB6D800F636C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				808799971AEFB6D800F636C2 /* CricScorerLite-Info.plist */,
+				808799981AEFB6D800F636C2 /* InfoPlist.strings */,
+				8087999B1AEFB6D800F636C2 /* main.m */,
+				8087999D1AEFB6D800F636C2 /* CricScorerLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		808799B41AEFB6D800F636C2 /* CricScorerLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				808799BA1AEFB6D800F636C2 /* CricScorerLiteTests.m */,
+				808799B51AEFB6D800F636C2 /* Supporting Files */,
+			);
+			path = CricScorerLiteTests;
+			sourceTree = "<group>";
+		};
+		808799B51AEFB6D800F636C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				808799B61AEFB6D800F636C2 /* CricScorerLiteTests-Info.plist */,
+				808799B71AEFB6D800F636C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8087998B1AEFB6D800F636C2 /* CricScorerLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808799BE1AEFB6D800F636C2 /* Build configuration list for PBXNativeTarget "CricScorerLite" */;
+			buildPhases = (
+				808799881AEFB6D800F636C2 /* Sources */,
+				808799891AEFB6D800F636C2 /* Frameworks */,
+				8087998A1AEFB6D800F636C2 /* Resources */,
+				80BA342F1D60BCED00A3E816 /* Embed Frameworks */,
+				80D35C711D6391EE00389A21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricScorerLite;
+			productName = CricScorerLite;
+			productReference = 8087998C1AEFB6D800F636C2 /* CricScorerLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808799841AEFB6D800F636C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = K15;
+				TargetAttributes = {
+					8087998B1AEFB6D800F636C2 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 808799871AEFB6D800F636C2 /* Build configuration list for PBXProject "CricScorerLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808799831AEFB6D800F636C2;
+			productRefGroup = 8087998D1AEFB6D800F636C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8087998B1AEFB6D800F636C2 /* CricScorerLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8087998A1AEFB6D800F636C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808799A81AEFB6D800F636C2 /* Images.xcassets in Resources */,
+				8087999A1AEFB6D800F636C2 /* InfoPlist.strings in Resources */,
+				80F4D2451AEFB8F100B395FE /* Black-square-button.png in Resources */,
+				808799A31AEFB6D800F636C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80D35C711D6391EE00389A21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "libName=\"ScoringEngine.framework\"\nseFrameworkDir=\"${SRCROOT}/../Common/Libs/${libName}\"\nframeworkDir=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/${libName}\"\nditto \"${seFrameworkDir}\" \"${frameworkDir}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808799881AEFB6D800F636C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8067C5061AF0DCED007DE073 /* ScoringAreaViewController.mm in Sources */,
+				808799A01AEFB6D800F636C2 /* AppDelegate.m in Sources */,
+				8087999C1AEFB6D800F636C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		808799981AEFB6D800F636C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808799991AEFB6D800F636C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		808799A11AEFB6D800F636C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808799A21AEFB6D800F636C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		808799B71AEFB6D800F636C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808799B81AEFB6D800F636C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808799BC1AEFB6D800F636C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					ScoringEngine,
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		808799BD1AEFB6D800F636C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					ScoringEngine,
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808799BF1AEFB6D800F636C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Common/Libs\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CricScorerLite/CricScorerLite-Prefix.pch";
+				INFOPLIST_FILE = "CricScorerLite/CricScorerLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.K15.CricScorerLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		808799C01AEFB6D800F636C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Common/Libs\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CricScorerLite/CricScorerLite-Prefix.pch";
+				INFOPLIST_FILE = "CricScorerLite/CricScorerLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.K15.CricScorerLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808799871AEFB6D800F636C2 /* Build configuration list for PBXProject "CricScorerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808799BC1AEFB6D800F636C2 /* Debug */,
+				808799BD1AEFB6D800F636C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808799BE1AEFB6D800F636C2 /* Build configuration list for PBXNativeTarget "CricScorerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808799BF1AEFB6D800F636C2 /* Debug */,
+				808799C01AEFB6D800F636C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 808799841AEFB6D800F636C2 /* Project object */;
+}
